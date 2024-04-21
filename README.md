@@ -38,12 +38,6 @@ Exchanges confirmed working by the community:
 
 - [X] [Bitvavo](https://bitvavo.com/)
 
-## Documentation
-
-We invite you to read the bot documentation to ensure you understand how the bot is working.
-
-Please find the complete documentation on our [website](https://www.freqtrade.io).
-
 ## Features
 
 - [x] **Based on Python 3.7+**: For botting on any operating system - Windows, macOS and Linux.
@@ -51,7 +45,7 @@ Please find the complete documentation on our [website](https://www.freqtrade.io
 - [x] **Dry-run**: Run the bot without paying money.
 - [x] **Backtesting**: Run a simulation of your buy/sell strategy.
 - [x] **Strategy Optimization by machine learning**: Use machine learning to optimize your buy/sell strategy parameters with real exchange data.
-- [x] **Edge position sizing** Calculate your win rate, risk reward ratio, the best stoploss and adjust your position size before taking a position for each specific market. [Learn more](https://www.freqtrade.io/en/latest/edge/).
+- [x] **Edge position sizing** Calculate your win rate, risk reward ratio, the best stoploss and adjust your position size before taking a position for each specific market.
 - [x] **Whitelist crypto-currencies**: Select which crypto-currency you want to trade or use dynamic whitelists.
 - [x] **Blacklist crypto-currencies**: Select which crypto-currency you want to avoid.
 - [x] **Manageable via Telegram**: Manage the bot with Telegram.
@@ -68,8 +62,6 @@ git clone -b develop https://github.com/freqtrade/freqtrade.git
 cd freqtrade
 ./setup.sh --install
 ```
-
-For any other type of installation please refer to [Installation doc](https://www.freqtrade.io/en/latest/installation/).
 
 ## Basic Usage
 
@@ -117,7 +109,7 @@ optional arguments:
 
 ### Telegram RPC commands
 
-Telegram is not mandatory. However, this is a great way to control your bot. More details and the full command list on our [documentation](https://www.freqtrade.io/en/latest/telegram-usage/)
+Telegram is not mandatory. However, this is a great way to control your bot. 
 
 - `/start`: Starts the trader.
 - `/stop`: Stops the trader.
@@ -139,46 +131,7 @@ The project is currently setup in two main branches:
 - `stable` - This branch contains the latest stable release. This branch is generally well tested.
 - `feat/*` - These are feature branches, which are being worked on heavily. Please don't use these unless you want to test a specific feature.
 
-## Support
 
-### Help / Discord / Slack
-
-For any questions not covered by the documentation or for further information about the bot, or to simply engage with like-minded individuals, we encourage you to join our slack channel.
-
-Please check out our [discord server](https://discord.gg/MA9v74M).
-
-You can also join our [Slack channel](https://join.slack.com/t/highfrequencybot/shared_invite/zt-mm786y93-Fxo37glxMY9g8OQC5AoOIw).
-
-### [Bugs / Issues](https://github.com/freqtrade/freqtrade/issues?q=is%3Aissue)
-
-If you discover a bug in the bot, please
-[search our issue tracker](https://github.com/freqtrade/freqtrade/issues?q=is%3Aissue)
-first. If it hasn't been reported, please
-[create a new issue](https://github.com/freqtrade/freqtrade/issues/new) and
-ensure you follow the template guide so that our team can assist you as
-quickly as possible.
-
-### [Feature Requests](https://github.com/freqtrade/freqtrade/labels/enhancement)
-
-Have you a great idea to improve the bot you want to share? Please,
-first search if this feature was not [already discussed](https://github.com/freqtrade/freqtrade/labels/enhancement).
-If it hasn't been requested, please
-[create a new request](https://github.com/freqtrade/freqtrade/issues/new)
-and ensure you follow the template guide so that it does not get lost
-in the bug reports.
-
-### [Pull Requests](https://github.com/freqtrade/freqtrade/pulls)
-
-Feel like our bot is missing a feature? We welcome your pull requests!
-
-Please read our
-[Contributing document](https://github.com/freqtrade/freqtrade/blob/develop/CONTRIBUTING.md)
-to understand the requirements before sending your pull-requests.
-
-Coding is not a necessity to contribute - maybe start with improving our documentation?
-Issues labeled [good first issue](https://github.com/freqtrade/freqtrade/labels/good%20first%20issue) can be good first contributions, and will help get you familiar with the codebase.
-
-**Note** before starting any major new feature work, *please open an issue describing what you are planning to do* or talk to us on [discord](https://discord.gg/MA9v74M) or [Slack](https://join.slack.com/t/highfrequencybot/shared_invite/zt-mm786y93-Fxo37glxMY9g8OQC5AoOIw). This will ensure that interested parties can give valuable feedback on the feature, and let others know that you are working on it.
 
 **Important:** Always create your PR against the `develop` branch, not `stable`.
 
@@ -190,7 +143,7 @@ The clock must be accurate, synchronized to a NTP server very frequently to avoi
 
 ### Min hardware required
 
-To run this bot we recommend you a cloud instance with a minimum of:
+To run this bot i recommend you a cloud instance with a minimum of:
 
 - Minimal (advised) system requirements: 2GB RAM, 1GB disk space, 2vCPU
 
